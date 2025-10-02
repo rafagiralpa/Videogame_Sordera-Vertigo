@@ -75,25 +75,25 @@ Aquí Unity guarda la gestión de dependencias.
 ### Carpeta `ProjectSettings/`
 
 Son configuraciones globales del proyecto, no de un asset en concreto.
-**InputManager.asset** → Configuración de teclas, mandos o dispositivos de entrada (en caso de usar el sistema clásico de inputs).
-**GraphicsSettings.asset** → Ajustes de renderizado (shaders, calidad, pipeline).
-**QualitySettings.asset** → Ajustes de calidad (baja, media, alta, ultra).
-**ProjectVersion.txt** → Indica la versión exacta de Unity con la que se creó el proyecto. Muy útil para abrirlo sin errores.
-**Otros .asset** → Configuración de etiquetas, capas, tiempo, física, etc.
+* **InputManager.asset** → Configuración de teclas, mandos o dispositivos de entrada (en caso de usar el sistema clásico de inputs).
+* **GraphicsSettings.asset** → Ajustes de renderizado (shaders, calidad, pipeline).
+* **QualitySettings.asset** → Ajustes de calidad (baja, media, alta, ultra).
+* **ProjectVersion.txt** → Indica la versión exacta de Unity con la que se creó el proyecto. Muy útil para abrirlo sin errores.
+* **Otros .asset** → Configuración de etiquetas, capas, tiempo, física, etc.
 
 
 
 ### Archivos sueltos
 
-**.gitignore** → Lista de carpetas y archivos que Git no debe subir al repositorio (por ejemplo `Library/`, `Temp/`, `Builds/`).
-**README.md** → Documento de introducción al proyecto (puedes poner descripción, instalación y estructura, como el que estamos escribiendo).
+* **.gitignore** → Lista de carpetas y archivos que Git no debe subir al repositorio (por ejemplo `Library/`, `Temp/`, `Builds/`).
+* **README.md** → Documento de introducción al proyecto (puedes poner descripción, instalación y estructura, como el que estamos escribiendo).
 
 En pocas palabras:
-**Assets/** → Lo que tú desarrollas (código, escenas, assets).
-**Packages/** → Dependencias externas.
-**ProjectSettings/** → Configuración del proyecto.
-**.gitignore** → Para evitar subir basura a GitHub.
-**README.md** → Documentación para otros desarrolladores.
+* **Assets/** → Lo que tú desarrollas (código, escenas, assets).
+* **Packages/** → Dependencias externas.
+* **ProjectSettings/** → Configuración del proyecto.
+* **.gitignore** → Para evitar subir basura a GitHub.
+* **README.md** → Documentación para otros desarrolladores.
 
 
 
